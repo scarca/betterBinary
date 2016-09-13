@@ -1,6 +1,6 @@
 package betterBinary
 
-func Binbuf(x uint64, b *[8]byte){
+func Binbuf(x uint64, b []byte){
 	i:=7
 	for x>0{
 		b[i] = byte(x)
